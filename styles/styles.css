@@ -1,14 +1,31 @@
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
 body {
     font-family: sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
 }
 
 .block {
     font-size: 16px;
     line-height: 26px;
     color: #1f3f68;
+    width: 425px;
 }
 
 .heading {
+    width: 510px;
     font-size: 64px;
     color: #1f3f68;
 }
@@ -18,18 +35,21 @@ body {
     font-size: 44px;
     text-align: center;
 }
+
 .heading3 {
     font-size: 36px;
     text-align: center;
 }
 
 .heading4 {
+    height: 359px;
     font-size: 20px;
     line-height: 30px;
     color: #1f3f68;
 }
 
-input, textarea {
+input,
+textarea {
     border: 1px solid #356ead;
     box-sizing: border-box;
     border-radius: 10px;
